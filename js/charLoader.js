@@ -1,7 +1,7 @@
 // /js/charLoader.js
 async function loadCharacter(charFile) {
     try {
-        const res = await fetch(`../../data/entity/${charFile}`);
+        const res = await fetch(`../../data/characters/${charFile}`);
         const data = await res.json();
         const char = data[0];
         const talentData = data[1]?.talent;
