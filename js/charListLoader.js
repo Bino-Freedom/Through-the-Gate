@@ -1,6 +1,6 @@
 async function loadPage() {
     // 1. Tải danh sách nhân vật
-    const jsonRes = await fetch('/data/characterList.json');
+    const jsonRes = await fetch('../data/characterList.json');
     const data = await jsonRes.json();
 
     // 2. Xác định khu vực danh sách
