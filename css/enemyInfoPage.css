@@ -1,0 +1,41 @@
+#info-box {
+    width: 100%;
+    display: flex;
+    background-color: rgb(32, 32, 32);
+    border: 3px solid;
+    border-radius: 30px;
+}
+
+#info-box img {
+    width: 60%;
+}
+
+#stats-box {
+    width: 40%;
+    padding: 5%;
+}
+
+#enemy-name {
+    padding: 2%;
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*stats*/
+.title {
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 5px 0;
+    background-color: rgb(32, 32, 32);
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.stat-value {
+    font-size: large;
+    font-weight: normal;
+}

@@ -3,22 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Enemy</title>
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/pageStyle.css">
+    <title id="title-name">Character Page</title>
+    <link rel="stylesheet" href="../../css/menu.css">
+    <link rel="stylesheet" href="../../css/pageStyle.css">
+    <link rel="stylesheet" href="../../css/enemyInfoPage.css">
 </head>
 
 <body id="body">
     <header id="menu-placeholder"></header>
 
     <main>
-        <h1>Trang chủ</h1>
+        <div id="info-box">
+            <img src="../../image/characters/sample/Godu.png">
+            <div id="stats-box">
+                <p id="enemy-name">Godu</p>
+                <hr>
+                <div id="stats">
+                    <p class="title">Tấn công: <span id="atk" class="stat-value"></span></p>
+                    <p class="title">Máu: <span id="hp" class="stat-value"></span></p>
+                    <p class="title">Phòng thủ: <span id="def" class="stat-value"></span></p>
+                    <p class="title">Tốc độ: <span id="spd" class="stat-value"></span></p>
+                    <p class="title">Kháng hiệu ứng: <span id="res" class="stat-value"></span></p>
+                    <p class="title">Chính xác: <span id="accuracy" class="stat-value"></span></p>
+                </div>
+            </div>
+        </div>
+        </div>
     </main>
-
+    <script src="../../js/menuLoader.js"></script>
+    <script src="../../js/charLoader.js"></script>
     <script>
-        fetch("html/menu.html")
-            .then(res => res.text())
-            .then(html => document.getElementById("menu-placeholder").innerHTML = html);
+        const params = new URLSearchParams(window.location.search);
+        const charName = params.get('char');
+
+        if (charName) {
+            loadCharacter(`${charName.toLowerCase()}.json`);
+        } else {
+            console.error("Không tìm thấy tên nhân vật trong URL");
+        }
+        document.getElementById('title-name').textContent = charName;
     </script>
 </body>
 
