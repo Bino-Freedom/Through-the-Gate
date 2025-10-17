@@ -16,7 +16,7 @@
     </main>
 
     <script>
-        fetch("menu.html")
+        fetch("/html/menu.html")
             .then(res => res.text())
             .then(html => document.getElementById("menu-placeholder").innerHTML = html);
     </script>
