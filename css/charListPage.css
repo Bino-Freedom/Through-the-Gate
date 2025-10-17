@@ -1,0 +1,84 @@
+/*Chức năng tìm kiếm*/
+#search-character {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+/*Nút tìm theo tên*/
+input[type="search-box"] {
+    width: 80%;
+    min-height: 30px;
+    margin-bottom: 10px;
+}
+
+/*Bảng lọc*/
+#filter-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#class1,
+#class2 {
+    width: 48%;
+}
+
+.filter-icon {
+    width: 23%;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid;
+    justify-items: center;
+    align-items: center;
+    padding: 2%;
+    color: #ececec;
+    font-size: medium;
+}
+
+.filter-icon:hover {
+    background-color: #5d5d5d;
+}
+
+.filter-icon img {
+    width: 80%;
+}
+
+/*List nhân vật*/
+.char-list {
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2%;
+    padding: 10px;
+}
+
+.char-card {
+    position: relative;
+    cursor: pointer;
+}
+
+.char-card .char-name-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.char-card:hover img {
+    filter: blur(2px);
+    transform: scale(1.05);
+}
+
+.char-card:hover .char-name-card {
+    opacity: 1;
+}
+
+.char-card img {
+    width: 100%;
+    display: block;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Character Page</title>
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/pageStyle.css">
+    <link rel="stylesheet" href="/css/charInfoPage.css">
+</head>
+
+<body id="body">
+    <header id="menu-placeholder"></header>
+
+    <main>
+        <div class="info-box">
+            <img id="splash-art" src="">
+            <div id="info-arena">
+                <div id="rare-and-name">
+                    <p id="char-name"></p>
+                    <div id="tags-box">
+                        <img id="char-rarity" src="">
+                        <img id="char-class" src="">
+                        <img id="char-class2" src="/image/tags/water.png">
+                    </div>
+                </div>
+
+                <hr>
+
+                <div id="stats-box">
+                    <div id="stats">
+                        <p class="title">Tấn công: <span id="atk" class="stat-value"></span></p>
+                        <p class="title">Máu: <span id="hp" class="stat-value"></span></p>
+                        <p class="title">Phòng thủ: <span id="def" class="stat-value"></span></p>
+                        <p class="title">Tốc độ: <span id="spd" class="stat-value"></span></p>
+                        <p class="title">Tỉ lệ chí mạng: <span id="crit" class="stat-value"></span></p>
+                        <p class="title">Sát thương chí mạng: <span id="critDmg" class="stat-value"></span></p>
+                        <p class="title">Kháng hiệu ứng: <span id="res" class="stat-value"></span></p>
+                        <p class="title">Chính xác: <span id="accuracy" class="stat-value"></span></p>
+                        <p class="title">Giới hạn năng lượng: <span id="mp" class="stat-value"></span></p>
+                        <p class="title">Tốc độ hồi năng lượng: <span id="mpRegen" class="stat-value"></span></p>
+                        <p class="title">Ô nhiễm: <span id="blight" class="stat-value"></span></p>
+                        <p class="title">Dồn ép: <span id="overload" class="stat-value"></span></p>
+                        <p class="title">Tỉ lệ dồn ép: <span id="overloadRate" class="stat-value"></span></p>
+                    </div>
+
+                    <div id="slider">
+                        <input type="range" class="level-slider" min="1" max="100" value="1">
+                        <p>Level: <span class="lv-value">1</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <h1>Thiên phú</h1>
+        <div class="talent-container">
+            <div class="talent-box" id="talent1">
+                <img src="/image/menu/page_icon.png">
+                <hr>
+                <p class="talent-name" id="talent-name1">Tên thiên phú</p>
+                <p id="talent-desc1">Thiên phú</p>
+            </div>
+            <div class="talent-box" id="talent2">
+                <img src="/image/menu/page_icon.png">
+                <hr>
+                <p class="talent-name" id="talent-name2">Tên thiên phú</p>
+                <p id="talent-desc2">Thiên phú</p>
+            </div>
+            <div class="talent-box" id="talent3">
+                <img src="/image/menu/page_icon.png">
+                <hr>
+                <p class="talent-name" id="talent-name3">Tên thiên phú</p>
+                <p id="talent-desc3">Thiên phú</p>
+            </div>
+            <div class="talent-box" id="talent4">
+                <img src="/image/menu/page_icon.png">
+                <hr>
+                <p class="talent-name" id="talent-name4">Tên thiên phú</p>
+                <p id="talent-desc4">Thiên phú</p>
+            </div>
+            <div class="talent-box" id="talent5">
+                <img src="/image/menu/page_icon.png">
+                <hr>
+                <p class="talent-name" id="talent-name5">Tên thiên phú</p>
+                <p id="talent-desc5">Thiên phú</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="skill-arena">
+            <h1>Kỹ năng</h1>
+            <div class="skill-container">
+                <div class="skill-list">
+                    <button class="img-btn"><img class="skill-icon" src="/image/menu/page_icon.png"></button>
+                </div>
+                <div class="slider-lv">
+                    <input type="range" class="level-slider" min="1" max="10" value="1">
+                    <p>Level: <span class="lv-value">1</span></p>
+                </div>
+            </div>
+            <p class="skill-name">Tên kỹ năng</p>
+            <div class="skill-desc">
+                <img class="skill-icon" src="/image/menu/page_icon.png">
+                <div class="vertical-line"></div>
+                <p class="desc">Mô tả kỹ năng</p>
+            </div>
+            <p class="skill-add">UIA</p>
+        </div>
+
+        <hr>
+        <h1>Dấu ấn sức mạnh</h1>
+        <div>
+            <div class="powerSeal"></div>
+        </div>
+    </main>
+    <script src="/js/menuLoader.js"></script>
+    <script src="/js/charLoader.js"></script>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const charName = params.get('char');
+
+        if (charName) {
+            loadCharacter(`${charName.toLowerCase()}.json`);
+        } else {
+            console.error("Không tìm thấy tên nhân vật trong URL");
+        }
+    </script>
+
+
+
+
+
+</body>
+
+</html>

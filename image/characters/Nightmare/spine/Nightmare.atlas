@@ -1,0 +1,432 @@
+
+Nightmare.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Belt
+  rotate: false
+  xy: 1728, 1642
+  size: 176, 132
+  orig: 176, 132
+  offset: 0, 0
+  index: -1
+Belt2
+  rotate: false
+  xy: 539, 1709
+  size: 134, 65
+  orig: 134, 65
+  offset: 0, 0
+  index: -1
+Belt3
+  rotate: false
+  xy: 319, 1564
+  size: 164, 157
+  orig: 164, 157
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 964, 1685
+  size: 106, 89
+  orig: 106, 89
+  offset: 0, 0
+  index: -1
+BoneD
+  rotate: true
+  xy: 1440, 1665
+  size: 109, 146
+  orig: 109, 146
+  offset: 0, 0
+  index: -1
+BoneT
+  rotate: false
+  xy: 851, 1687
+  size: 111, 87
+  orig: 111, 87
+  offset: 0, 0
+  index: -1
+Cloak
+  rotate: false
+  xy: 2, 1017
+  size: 808, 506
+  orig: 808, 506
+  offset: 0, 0
+  index: -1
+CloakT
+  rotate: false
+  xy: 2, 1593
+  size: 315, 137
+  orig: 315, 137
+  offset: 0, 0
+  index: -1
+Clothes
+  rotate: true
+  xy: 1090, 1288
+  size: 352, 730
+  orig: 352, 730
+  offset: 0, 0
+  index: -1
+DTFlag
+  rotate: true
+  xy: 1258, 1676
+  size: 98, 180
+  orig: 98, 180
+  offset: 0, 0
+  index: -1
+EarL
+  rotate: false
+  xy: 406, 1725
+  size: 56, 49
+  orig: 56, 49
+  offset: 0, 0
+  index: -1
+EarR
+  rotate: true
+  xy: 268, 1732
+  size: 42, 90
+  orig: 42, 90
+  offset: 0, 0
+  index: -1
+FlagT
+  rotate: true
+  xy: 2, 109
+  size: 606, 654
+  orig: 606, 654
+  offset: 0, 0
+  index: -1
+FurMove1
+  rotate: false
+  xy: 2, 1757
+  size: 31, 17
+  orig: 31, 17
+  offset: 0, 0
+  index: -1
+FurMove2
+  rotate: false
+  xy: 35, 1753
+  size: 52, 21
+  orig: 52, 21
+  offset: 0, 0
+  index: -1
+FurMove3
+  rotate: false
+  xy: 135, 1748
+  size: 50, 26
+  orig: 50, 26
+  offset: 0, 0
+  index: -1
+Hair1
+  rotate: false
+  xy: 89, 1750
+  size: 44, 24
+  orig: 44, 24
+  offset: 0, 0
+  index: -1
+Hair2
+  rotate: true
+  xy: 187, 1747
+  size: 27, 30
+  orig: 27, 30
+  offset: 0, 0
+  index: -1
+HandR1
+  rotate: true
+  xy: 1588, 1644
+  size: 130, 138
+  orig: 130, 138
+  offset: 0, 0
+  index: -1
+HandR2
+  rotate: true
+  xy: 876, 1489
+  size: 191, 212
+  orig: 191, 212
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 666, 1525
+  size: 160, 208
+  orig: 160, 208
+  offset: 0, 0
+  index: -1
+HoodD
+  rotate: false
+  xy: 675, 1692
+  size: 174, 82
+  orig: 174, 82
+  offset: 0, 0
+  index: -1
+HoodT
+  rotate: false
+  xy: 1072, 1682
+  size: 184, 92
+  orig: 184, 92
+  offset: 0, 0
+  index: -1
+LH
+  rotate: false
+  xy: 658, 2
+  size: 1376, 713
+  orig: 1376, 713
+  offset: 0, 0
+  index: -1
+LM
+  rotate: true
+  xy: 360, 1731
+  size: 43, 44
+  orig: 43, 44
+  offset: 0, 0
+  index: -1
+PKD
+  rotate: true
+  xy: 219, 1734
+  size: 40, 47
+  orig: 40, 47
+  offset: 0, 0
+  index: -1
+PKT
+  rotate: true
+  xy: 464, 1723
+  size: 51, 73
+  orig: 51, 73
+  offset: 0, 0
+  index: -1
+S
+  rotate: false
+  xy: 2, 717
+  size: 1446, 298
+  orig: 1525, 298
+  offset: 0, 0
+  index: -1
+SChar
+  rotate: true
+  xy: 485, 1539
+  size: 168, 179
+  orig: 168, 179
+  offset: 0, 0
+  index: -1
+
+Nightmare2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FlagD
+  rotate: false
+  xy: 2, 901
+  size: 1403, 615
+  orig: 1403, 615
+  offset: 0, 0
+  index: -1
+HandL
+  rotate: true
+  xy: 2, 97
+  size: 802, 859
+  orig: 802, 859
+  offset: 0, 0
+  index: -1
+L 2
+  rotate: false
+  xy: 863, 2
+  size: 1082, 897
+  orig: 1766, 900
+  offset: 1, 1
+  index: -1
+
+Nightmare3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L
+  rotate: false
+  xy: 2, 2
+  size: 1772, 910
+  orig: 1774, 911
+  offset: 2, 1
+  index: -1
+L1
+  rotate: false
+  xy: 2, 914
+  size: 1245, 842
+  orig: 1771, 858
+  offset: 526, 15
+  index: -1
+
+Nightmare4.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+K1
+  rotate: true
+  xy: 2, 1083
+  size: 952, 1171
+  orig: 1601, 1410
+  offset: 639, 21
+  index: -1
+SmokeT1
+  rotate: false
+  xy: 2, 2
+  size: 1948, 1079
+  orig: 1948, 1079
+  offset: 0, 0
+  index: -1
+
+Nightmare5.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SmokeT
+  rotate: false
+  xy: 2, 2
+  size: 1948, 1081
+  orig: 1948, 1081
+  offset: 0, 0
+  index: -1
+
+Nightmare6.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SmokeT 2
+  rotate: false
+  xy: 2, 2
+  size: 1858, 1081
+  orig: 1858, 1081
+  offset: 0, 0
+  index: -1
+
+Nightmare7.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SmokeS1
+  rotate: false
+  xy: 2, 2
+  size: 1419, 1183
+  orig: 1523, 1253
+  offset: 59, 12
+  index: -1
+
+Nightmare8.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SmokeS3
+  rotate: false
+  xy: 2, 2
+  size: 1281, 1183
+  orig: 1427, 1260
+  offset: 26, 12
+  index: -1
+
+Nightmare9.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SmokeS
+  rotate: false
+  xy: 2, 2
+  size: 1470, 1193
+  orig: 1525, 1260
+  offset: 23, 12
+  index: -1
+
+Nightmare10.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SmokeS2
+  rotate: false
+  xy: 2, 2
+  size: 1467, 1193
+  orig: 1525, 1260
+  offset: 26, 12
+  index: -1
+
+Nightmare11.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+K3
+  rotate: false
+  xy: 2, 2
+  size: 1467, 1323
+  orig: 1617, 1410
+  offset: 138, 86
+  index: -1
+
+Nightmare12.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+K2
+  rotate: false
+  xy: 2, 2
+  size: 1601, 1382
+  orig: 1624, 1405
+  offset: 1, 18
+  index: -1
+
+Nightmare13.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+K
+  rotate: false
+  xy: 2, 2
+  size: 1619, 1388
+  orig: 1630, 1410
+  offset: 1, 21
+  index: -1
+
+Nightmare14.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BKG
+  rotate: false
+  xy: 2, 2
+  size: 1863, 1816
+  orig: 1863, 1816
+  offset: 0, 0
+  index: -1
+
+Nightmare15.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+KT
+  rotate: false
+  xy: 2, 2
+  size: 1863, 1816
+  orig: 1863, 1816
+  offset: 0, 0
+  index: -1
+
+Nightmare16.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Paper
+  rotate: false
+  xy: 2, 2
+  size: 2001, 2001
+  orig: 2001, 2001
+  offset: 0, 0
+  index: -1

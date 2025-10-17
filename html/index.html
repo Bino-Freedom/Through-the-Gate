@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/pageStyle.css">
+</head>
+
+<body id="body">
+    <header id="menu-placeholder"></header>
+
+    <main>
+        <h1>Trang chủ</h1>
+    </main>
+
+    <script>
+        fetch("menu.html")
+            .then(res => res.text())
+            .then(html => document.getElementById("menu-placeholder").innerHTML = html);
+    </script>
+</body>
+
+</html>

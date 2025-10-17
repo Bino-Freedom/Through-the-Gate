@@ -1,0 +1,138 @@
+/* --- RESET CƠ BẢN --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+}
+
+#menu-placeholder {
+    display: flex;
+    width: 30%;
+    min-width: 260px;
+    height: 100%;
+    max-height: 100vh;
+    overflow-y: auto;
+    justify-content: center;
+    background-color: #333;
+}
+
+#menu-placeholder::-webkit-scrollbar {
+    width: 8px;
+    background: transparent;
+}
+
+#menu-placeholder::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#menu-placeholder::-webkit-scrollbar-thumb {
+    background-color: #5b5b5b;
+    border-radius: 4px;
+}
+
+
+/* Header chính */
+.main-header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/*Định dạng ảnh*/
+.menu-img {
+    width: 60%;
+    height: auto;
+    display: block;
+}
+
+/* Khối icon + tên trang */
+#page-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+    margin: 15%;
+    border-radius: 15px;
+    padding: 3%;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+#page-icon:hover {
+    background-color: #5d5d5d;
+}
+
+#page-name {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color: #ececec;
+    letter-spacing: 1px;
+}
+
+/* Đường kẻ ngang */
+.main-header hr {
+    width: 80%;
+    border: none;
+    border-top: 1px solid #aaa;
+    margin-top: 10px;
+    margin-bottom: 10%;
+}
+
+/*Các nút khác*/
+#menu-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.menu-btn {
+    width: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    justify-items: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.menu-btn:hover {
+    background-color: #5d5d5d;
+}
+
+.menu-font {
+    font-size: medium;
+    color: #ececec;
+    margin-top: 10%;
+}
+
+/*Ngôn ngữ*/
+.language {
+    text-align: center;
+    font-size: medium;
+    color: #ececec;
+    padding: 10px;
+    width: 100%;
+}
+
+.language select {
+    background-color: #181818;
+    color: #ececec;
+    width: 50%;
+    height: 30px;
+}
