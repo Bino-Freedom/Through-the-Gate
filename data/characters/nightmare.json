@@ -1,9 +1,9 @@
 [
     {
         "name": "Nightmare",
-        "image": "/image/characters/Nightmare/Nightmare.png",
-        "rarity": "/image/tags/star.png",
-        "class": "/image/tags/fire.png",
+        "image": "../../image/characters/Nightmare/Nightmare.png",
+        "rarity": "../../image/tags/star.png",
+        "class": "../../image/tags/fire.png",
         "stats": {
             "atk": 124,
             "hp": 640,
@@ -23,27 +23,27 @@
     {
         "talent": {
             "talent1": [
-                "/image/tags/star.png",
+                "../../image/tags/star.png",
                 "Ý Chí Sắt Đá",
                 "Tăng 10% phòng thủ và kháng hiệu ứng trong 2 lượt đầu trận."
             ],
             "talent2": [
-                "/image/tags/star.png",
+                "../../image/tags/star.png",
                 "Ngọn Lửa Phục Thù",
                 "Khi HP giảm dưới 50%, tăng 20% sát thương gây ra cho đến hết lượt."
             ],
             "talent3": [
-                "/image/tags/star.png",
+                "../../image/tags/star.png",
                 "Sức Mạnh Bóng Đêm",
                 "Mỗi khi tấn công chí mạng, hồi lại 5% MP tối đa."
             ],
             "talent4": [
-                "/image/tags/star.png",
+                "../../image/tags/star.png",
                 "Dấu Ấn Tận Diệt",
                 "Khi tiêu diệt kẻ địch, nhận hiệu ứng tăng 15% tốc độ trong 1 lượt."
             ],
             "talent5": [
-                "/image/tags/star.png",
+                "../../image/tags/star.png",
                 "Ý Niệm Vĩnh Hằng",
                 "Mỗi 3 lượt, lần tấn công kế tiếp gây thêm 30% sát thương."
             ]
@@ -52,7 +52,7 @@
     {
         "skill": {
             "passive": {
-                "link": "/image/tags/fire.png",
+                "link": "../../image/tags/fire.png",
                 "type": "Nội tại",
                 "name": "UIA",
                 "details": [
@@ -61,57 +61,24 @@
                 ],
                 "statsTable": {
                     "x": [
-                        5,
-                        10,
-                        15,
-                        20,
-                        25,
-                        30,
-                        35,
-                        40,
-                        45,
-                        50
+                        5, 10, 15, 20, 25, 30, 35, 40, 45, 50
                     ]
                 }
             },
             "basicAttack": {
-                "link": "/image/tags/star.png",
+                "link": "../../image/tags/star.png",
                 "type": "Tấn công thường",
                 "name": "UIA",
                 "overloadGain": "10",
                 "chargePowerPool": "20",
                 "details": "Tấn công kẻ địch hai lần, gây sát thương bằng <x1>% và <x2>% tấn công",
                 "statsTable": {
-                    "x1": [
-                        30,
-                        33,
-                        36,
-                        39,
-                        42,
-                        45,
-                        48,
-                        51,
-                        54,
-                        57,
-                        60
-                    ],
-                    "x2": [
-                        40,
-                        44,
-                        48,
-                        52,
-                        56,
-                        60,
-                        64,
-                        68,
-                        72,
-                        76,
-                        80
-                    ]
+                    "x1": [30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60],
+                    "x2": [40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80]
                 }
             },
             "activeSkill1": {
-                "link": "/image/tags/water.png",
+                "link": "../../image/tags/water.png",
                 "type": "Kỹ năng 1",
                 "name": "UIA",
                 "orbCost": "1",
@@ -121,7 +88,7 @@
                 "statsTable": {}
             },
             "activeSkill2": {
-                "link": "/image/tags/fire.png",
+                "link": "../../image/tags/fire.png",
                 "type": "Kỹ năng 2",
                 "name": "UIA",
                 "orbCost": "1",
@@ -137,7 +104,7 @@
                 "statsTable": {}
             },
             "ultimate": {
-                "link": "/image/tags/fire.png",
+                "link": "../../image/tags/fire.png",
                 "type": "Kỹ năng tối thượng",
                 "name": "UIA",
                 "overloadGain": "0",
@@ -147,30 +114,8 @@
                     "<<Sự Tồn tại phai tàn:>> Đẩy lùi điểm hành động về cuối vòng và khóa hành động, tăng <x2>% sát thương phải nhận."
                 ],
                 "statsTable": {
-                    "x1": [
-                        1,
-                        2,
-                        3,
-                        4,
-                        5,
-                        6,
-                        7,
-                        8,
-                        9,
-                        10
-                    ],
-                    "x2": [
-                        1,
-                        2,
-                        3,
-                        4,
-                        5,
-                        6,
-                        7,
-                        8,
-                        9,
-                        10
-                    ]
+                    "x1": [1,2,3,4,5,6,7,8,9,10],
+                    "x2": [1,2,3,4,5,6,7,8,9,10]
                 }
             }
         }
