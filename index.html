@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
-    <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../css/pageStyle.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/pageStyle.css">
 </head>
 
 <body id="body">
@@ -16,7 +16,7 @@
     </main>
 
     <script>
-        fetch("menu.html")
+        fetch("/html/menu.html")
             .then(res => res.text())
             .then(html => document.getElementById("menu-placeholder").innerHTML = html);
     </script>
