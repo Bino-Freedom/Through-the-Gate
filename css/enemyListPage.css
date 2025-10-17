@@ -1,0 +1,40 @@
+.enemy-list-box {
+    width: 100%;
+    background-color: rgb(60, 60, 60);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.enemy-box {
+    width: 90%;
+    border: 5px solid;
+    border-radius: 15px;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    margin: 5%;
+}
+
+.enemy-box:hover,
+.enemy-box:active {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.enemy-box:link,
+.enemy-box:visited,
+.enemy-box:hover,
+.enemy-box:active {
+    color: inherit;
+}
+
+.enemy-box img {
+    width: 100%;
+}
+
+.enemy-name {
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
