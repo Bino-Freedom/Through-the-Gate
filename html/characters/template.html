@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Character Page</title>
+    <title id="title-name">Character Page</title>
     <link rel="stylesheet" href="../../css/menu.css">
     <link rel="stylesheet" href="../../css/pageStyle.css">
     <link rel="stylesheet" href="../../css/charInfoPage.css">
@@ -127,6 +127,7 @@
         } else {
             console.error("Không tìm thấy tên nhân vật trong URL");
         }
+        document.getElementById('title-name').textContent = charName;
     </script>
 
 </body>
