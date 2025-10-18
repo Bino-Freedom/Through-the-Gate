@@ -3,7 +3,7 @@
 async function loadMenu() {
     try {
         // Xác định folder gốc của Project Page
-        const projectRoot = "/Through-the-Gate/";
+        const projectRoot = "Through-the-Gate/";
 
         // Lấy menu.html từ folder /html/
         const res = await fetch(projectRoot + "html/menu.html");
