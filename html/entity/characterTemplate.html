@@ -6,22 +6,26 @@
     <title id="title-name">Character Page</title>
     <link rel="stylesheet" href="../../css/menu.css">
     <link rel="stylesheet" href="../../css/pageStyle.css">
-    <link rel="stylesheet" href="../../css/charInfoPage.css">
+    <link rel="stylesheet" href="../../css/entityInfo.css">
 </head>
 
 <body id="body">
     <header id="menu-placeholder"></header>
 
     <main>
-        <div class="info-box">
-            <img id="splash-art" src="">
+        <div id="info-box">
+            <div id="splash-art-box">
+                <img id="splash-art" src="">
+                <button id="theme-toggle" class="theme-toggle">
+                    <span class="toggle-thumb"></span>
+                </button>
+            </div>
             <div id="info-arena">
                 <div id="rare-and-name">
-                    <p id="char-name"></p>
+                    <p id="entity-name">Nightmare entity</p>
                     <div id="tags-box">
-                        <img id="char-rarity" src="">
-                        <img id="char-class" src="">
-                        <img id="char-class2" src="image/tags/water.png">
+                        <img id="char-rarity" src="../../image/tags/star.png">
+                        <img id="char-class" src="../../image/tags/fire.png">
                     </div>
                 </div>
 
@@ -29,7 +33,7 @@
 
                 <div id="stats-box">
                     <div id="stats">
-                        <p class="title">Tấn công: <span id="atk" class="stat-value"></span></p>
+                        <p class="title">Tấn công: <span id="atk" class="stat-value">placeholder</span></p>
                         <p class="title">Máu: <span id="hp" class="stat-value"></span></p>
                         <p class="title">Phòng thủ: <span id="def" class="stat-value"></span></p>
                         <p class="title">Tốc độ: <span id="spd" class="stat-value"></span></p>

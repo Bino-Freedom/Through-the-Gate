@@ -1,0 +1,128 @@
+@import url('theme.css');
+
+#info-box {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-secondary);
+    border-radius: 30px;
+    height: 650px;
+}
+
+/*Splash art*/
+#splash-art-box {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+#splash-art {
+    width: 100%;
+    height: auto;
+    max-height: 95%;
+    object-fit: contain;
+}
+
+.theme-toggle {
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid var(--color-secondary);
+    background-color: var(--color-box);
+    position: relative;
+    cursor: pointer;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.theme-toggle .toggle-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--color-secondary);
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+/* Khi gạt sang trạng thái ON */
+.theme-toggle.active .toggle-thumb {
+    transform: translateX(30px);
+}
+
+
+#info-arena {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+}
+
+/*Rare + name*/
+#rare-and-name {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    text-align: center;
+    padding: 3%;
+}
+
+#entity-name {
+    font-size: 50px;
+    font-weight: bold;
+    align-content: center;
+}
+
+#tags-box {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    align-self: center;
+    justify-self: center;
+}
+
+#char-rarity,
+#char-class {
+    height: 100%;
+}
+
+/*Stats*/
+#stats-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 87%;
+    width: 80%;
+    align-self: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--color-box);
+    font-size: medium;
+    font-weight: bold;
+    border: 1px solid var(--color-secondary);
+    padding: 1% 5% 1% 5%;
+    border-radius: 15px;
+}
+
+.stat-value {
+    font-weight: normal;
+}
+
+#slider {
+    align-content: center;
+    text-align: center;
+    flex: 1;
+}
