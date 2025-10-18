@@ -97,9 +97,9 @@
             <h1>Kỹ năng</h1>
             <div class="skill-container">
                 <div class="skill-list">
-                    <button class="img-btn"><img class="skill-icon" src="image/menu/page_icon.png"></button>
+                    <button class="img-btn"><img class="skill-btn" src="../../image/tags/fire.png"></button>
                 </div>
-                <div class="slider-lv">
+                <div class="slider-skill">
                     <input type="range" class="level-slider" min="1" max="10" value="1">
                     <p>Level: <span class="lv-value">1</span></p>
                 </div>
@@ -107,17 +107,65 @@
             <p class="skill-name">Tên kỹ năng</p>
             <div class="skill-desc">
                 <img class="skill-icon" src="../../image/menu/page_icon.png">
-                <div class="vertical-line"></div>
                 <p class="desc">Mô tả kỹ năng</p>
             </div>
             <p class="skill-add">UIA</p>
         </div>
 
         <hr>
+
         <h1>Dấu ấn sức mạnh</h1>
         <div>
-            <div class="powerSeal"></div>
+            <div class="mark-box">
+                <div id="mark1">
+                    <p class="mark-name">Tên kỹ năng</p>
+                    <div class="mark-desc">
+                        <img class="mark-icon" src="../../image/menu/page_icon.png">
+                        <p class="desc">Mô tả dấu ấn</p>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <hr>
+
+        <h1>Hồ sơ nhân vật</h1>
+        <div id="profile-box">
+            <div id="skin-list">
+                <img src="../../image/characters/Nightmare/Nightmare.png">
+                <p class="name-skin">Tên Skin</p>
+                <div id="skin-count">
+                    placeholder
+                </div>
+            </div>
+            <div id="profile-container">
+                <div id="profile-table" class="box">
+                    <p class="name-skin">Thông tin hồ sơ</p>
+                    <p class="title">Họ tên: <span class="stat-value">placeholder</span></p>
+                    <p class="title">Biệt danh/ tên thường gọi: <span class="stat-value">placeholder</span></p>
+                    <p class="title">Ngày sinh: <span class="stat-value">placeholder</span></p>
+                    <p class="title">Tuổi: <span class="stat-value">placeholder</span></p>
+                    <p class="title">Giới tính: <span class="stat-value">placeholder</span></p>
+                    <p class="title">Chiều cao: <span class="stat-value">placeholder</span></p>
+                    <p class="title">Cân nặng: <span class="stat-value">placeholder</span></p>
+                    <p class="title">Tính cách: <span class="stat-value">placeholder</span></p>
+                    <p class="title">Sở thích: <span class="stat-value">placeholder</span></p>
+                    <p class="title">Ghét: <span class="stat-value">placeholder</span></p>
+                </div>
+                <div id="skin-story-box" class="box">
+                    <p class="name-skin">Câu chuyện trang phục</p>
+                    <p id="skin-story">Viết nội dung ở đây</p>
+                </div>
+            </div>
+        </div>
+        <div class="box" id="lore">
+            <p class="name-skin">Tiểu sử</p>
+            <p id="lore-detail">placeholder</p>
+        </div>
+
+        <hr>
+
+        <h1>Tranh minh họa</h1>
     </main>
 
     <script src="../../js/menuLoader.js"></script>

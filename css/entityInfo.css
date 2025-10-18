@@ -112,7 +112,6 @@
     background-color: var(--color-box);
     font-size: medium;
     font-weight: bold;
-    border: 1px solid var(--color-secondary);
     padding: 1% 5% 1% 5%;
     border-radius: 15px;
 }
@@ -125,4 +124,201 @@
     align-content: center;
     text-align: center;
     flex: 1;
+}
+
+/*Tallent*/
+.talent-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    align-items: stretch;
+}
+
+.talent-box {
+    width: 18%;
+    border: 1px solid var(--color-secondary);
+    text-align: center;
+    padding: 1%;
+    background-color: var(--color-primary);
+    border-radius: 15px;
+}
+
+.talent-box img {
+    width: 100%;
+}
+
+.talent-name {
+    font-size: 25px;
+    padding: 8% 0% 8% 0%;
+}
+
+/*Skill*/
+.skill-arena {
+    width: 100%;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-secondary);
+    border-radius: 30px;
+    padding: 3%;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-around;
+}
+
+.skill-list {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 80%;
+    align-self: center;
+    background-color: var(--color-box);
+    border: 1px solid var(--color-secondary);
+    border-radius: 15px;
+}
+
+.img-btn {
+    background-color: transparent;
+    border-color: transparent;
+    height: 100%;
+}
+
+.skill-btn {
+    padding: 1% 2% 1% 2%;
+    height: 100%;
+}
+
+.slider-skill {
+    align-self: center;
+    text-align: center;
+}
+
+.skill-name {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 3%;
+}
+
+/*Khung mô tả skill*/
+.skill-desc {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: var(--color-box);
+}
+
+.skill-icon {
+    height: 100px;
+    border-right: 1px solid var(--color-secondary);
+    padding: 1%;
+}
+
+.desc {
+    padding: 2%;
+    font-size: medium;
+}
+
+.skill-add {
+    border-top: 1px solid var(--color-secondary);
+    background-color: var(--color-box);
+    padding: 1%;
+    font-size: medium;
+}
+
+/*Dấu ấn*/
+.mark-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--color-primary);
+    width: 80%;
+    justify-self: center;
+}
+
+.mark-name {
+    padding: 1% 5% 1% 5%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mark-icon {
+    height: 50px;
+}
+
+/*Hồ sơ*/
+#profile-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.box {
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-secondary);
+    border-radius: 15px;
+    padding: 5%;
+}
+
+#skin-list {
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+    border: 1px solid var(--color-secondary);
+    border-radius: 15px;
+    background-color: var(--color-primary);
+    padding: 1%;
+}
+
+.name-skin {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+#skin-count {
+    align-items: center;
+    align-self: center;
+    width: min-content;
+    border: 1px solid var(--color-secondary);
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    padding: 1% 2% 1% 2%;
+}
+
+#skin-list img {
+    width: 100%;
+}
+
+#profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#profile-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 58%;
+}
+
+#skin-story-box {
+    height: 40%;
+}
+
+/*Tiểu sử*/
+#lore {
+    margin-top: 2%;
+    padding: 2% 5% 2% 5%;
+    width: 80%;
+    justify-self: center;
 }
