@@ -134,18 +134,26 @@ async function loadCharacter(charFile) {
             // Lắng nghe sự kiện thay đổi slider
             slider.addEventListener('input', (e) => {
                 const level = parseInt(e.target.value);
-                lvValue.textContent = level;
+
+                // Nếu đạt max level (11), hiển thị chữ "Awakened"
+                if (level === parseInt(slider.max)) {
+                    lvValue.textContent = "Awakened";
+                } else {
+                    lvValue.textContent = `Lv ${level}`;
+                }
+
                 if (currentSkill) {
                     updateSkillDescription(currentSkill, level);
                 }
             });
 
+
             Object.entries(skillData).forEach(([key, skill]) => {
                 const btn = document.createElement('button');
-                btn.classList.add('img-btn');
+                btn.classList.add('skill-btn');
 
                 const img = document.createElement('img');
-                img.classList.add('skill-icon');
+                img.classList.add('img-btn');
                 img.src = skill.link || '/image/menu/page_icon.png';
                 img.alt = key;
                 btn.appendChild(img);
@@ -165,7 +173,8 @@ async function loadCharacter(charFile) {
                     }
                     slider.max = maxLevel;
                     slider.value = 1;
-                    lvValue.textContent = 1;
+                    lvValue.textContent = "Lv 1";
+
 
                     // Cập nhật mô tả skill với level 1
                     updateSkillDescription(skill, 1);

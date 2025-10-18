@@ -166,7 +166,7 @@
 .skill-container {
     display: flex;
     flex-direction: row;
-    height: 60px;
+    height: 80px;
     justify-content: space-around;
 }
 
@@ -179,20 +179,32 @@
     background-color: var(--color-box);
     border: 1px solid var(--color-secondary);
     border-radius: 15px;
-}
-
-.img-btn {
-    background-color: transparent;
-    border-color: transparent;
-    height: 100%;
+    align-items: center;
 }
 
 .skill-btn {
+    border-color: transparent;
+    background-color: transparent;
+    height: 80%;
+    padding: 0% 1% 0% 1%;
+    border-radius: 50%;
+}
+
+.skill-btn :hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+
+.img-btn {
     padding: 1% 2% 1% 2%;
     height: 100%;
 }
 
 .slider-skill {
+    display: flex;
+    flex-direction: column;
     align-self: center;
     text-align: center;
 }
