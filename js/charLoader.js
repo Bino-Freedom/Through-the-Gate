@@ -9,7 +9,7 @@ async function loadCharacter(charFile) {
 
         // Ảnh, tên, rarity, class
         if (char.image) document.getElementById('splash-art').src = char.image;
-        if (char.name) document.getElementById('char-name').textContent = char.name;
+        if (char.name) document.getElementById('entity-name').textContent = char.name;
         if (char.rarity) document.getElementById('char-rarity').src = char.rarity;
         if (char.class) document.getElementById('char-class').src = char.class;
 
