@@ -1,11 +1,11 @@
 [
     {
-        "linkTemplate": "../html/entity/characterTemplate.html",
+        "linkTemplate": "../html/characters/characterTemplate.html",
         "cardImg": "../image/characters/Nightmare/Nightmare_card.png",
         "charName": "Nightmare"
     },
     {
-        "linkTemplate": "../html/entity/characterTemplate.html",
+        "linkTemplate": "../html/characters/characterTemplate.html",
         "cardImg": "../image/characters/Nightmare/Nightmare_card.png",
         "charName": "Nightmare"
     },
