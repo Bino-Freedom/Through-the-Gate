@@ -1,0 +1,8 @@
+:root {
+    --transition-speed: 0.3s;
+
+    --menu-width-pc: 25%;
+    --menu-height-mobile: 8vh;
+    --menu-max-height-mobile: 80vh;
+    --menu-width-tablet: 40%;
+}

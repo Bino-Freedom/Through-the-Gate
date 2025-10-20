@@ -1,16 +1,5 @@
-/* Biến CSS */
-:root {
-    --primary-color: #333;
-    --secondary-color: #666;
-    --background-color: #fff;
-    --border-color: #e0e0e0;
-    --hover-color: #f5f5f5;
-    --transition-speed: 0.3s;
-    --menu-width-pc: 25%;
-    --menu-height-mobile: 8vh;
-    --menu-max-height-mobile: 80vh;
-    --menu-width-tablet: 40%;
-}
+@import url('./size.css');
+@import url('./color.css');
 
 /* Reset và thiết lập cơ bản */
 * {
@@ -65,14 +54,8 @@ body {
 }
 
 .logo-icon {
-    width: 60px;
-    height: 60px;
-    background-color: var(--secondary-color);
-    border-radius: 50%;
-    /* Thay thế bằng ảnh logo thực tế */
-    /* background-image: url(''); */
-    /* background-size: cover; */
-    /* background-position: center; */
+    width: 100px;
+    height: 100px;
 }
 
 /* Nút toggle menu mobile (ẩn trên PC) */
@@ -213,7 +196,7 @@ body {
 @media (max-width: 1024px) {
     .menu {
         width: 100%;
-        height: var(--menu-height-mobile);
+        height: max(var(--menu-height-mobile), 75px);
         flex-direction: row;
         align-items: center;
         border-right: none;
@@ -229,6 +212,11 @@ body {
         justify-content: center;
         padding: 0 20px;
         height: 100%;
+    }
+
+    .logo-icon {
+        width: 60px;
+        height: 60px;
     }
 
     .navigation-section,

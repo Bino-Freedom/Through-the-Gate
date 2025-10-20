@@ -4,7 +4,7 @@ function loadMenu() {
 
     // Tạo XMLHttpRequest để tải menu.html
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'menu.html', true);
+    xhr.open('GET', 'html/menu.html', true);
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
             // Chèn nội dung menu vào placeholder
