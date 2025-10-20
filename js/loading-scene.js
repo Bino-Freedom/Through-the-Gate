@@ -1,5 +1,5 @@
 // Tải file loader HTML vào placeholder
-$("#loader-container").load("html/loading-scene.html", function () {
+$("#loader-container").load("html/placeholder/ploading-scene.html", function () {
     // Khi load xong file HTML loader thì bắt đầu theo dõi sự kiện load toàn trang
     $(window).on("load", function () {
         $(".loader").fadeOut("fast"); // Ẩn hiệu ứng loader

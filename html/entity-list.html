@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entity list</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../css/loading-scene.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/entity-list.css">
+</head>
+
+<body>
+    <!-- Placeholder cho loading scene, menu, ... -->
+    <div id="loader-container"></div>
+    <div id="menu-placeholder"></div>
+
+    <!-- Nội dung trang -->
+    <main id="content">
+        <div id="placeholder"></div>
+
+        <div id="list-container">
+            <button class="card">
+                <img src="../data/img/entities/characters/nightmare/nightmare-card.png" class="card-img">
+                <div class="card-overlay"></div>
+                <span class="card-name">Nhân vật placeholder</span>
+                <video class="card-hover-video" muted loop playsinline autoplay>
+                    <source src="../data/img/entities/characters/nightmare/nightmare-card.webm" type="video/webm">
+                </video>
+            </button>
+        </div>
+    </main>
+
+    <!-- Script tải loading scene, menu, ... -->
+    <script src="../js/loading-scene.js"></script>
+    <script src="../js/menu.js"></script>
+</body>
+
+</html>
