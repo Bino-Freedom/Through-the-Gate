@@ -1,6 +1,6 @@
 // Đầu tiên, load loader.html vào trang
 $(document).ready(function () {
-    $("#loader-placeholder").load("html/loading.html", function () {
+    $("#loader-placeholder").load("html/loading-scene.html", function () {
         // Khi loader đã chèn xong, bắt đầu tính % load
         startLoadingProgress();
     });
