@@ -1,12 +1,17 @@
 :root {
-    --primary-color: #333;
-    --secondary-color: #666;
-    --background-color: #fff;
+    /*Dùng cho nền khung ngoài*/
+    --primary-color: #272731;
+    /*Dùng cho nền khung nội dung*/
+    --secondary-color: #1a1a21;
+    /*Dùng cho nền*/
+    --background-color: #29292f;
+    /*Dùng cho chữ, viền khung*/
     --border-color: #e0e0e0;
-    --hover-color: #f5f5f5;
+    /*Dùng cho nút khi giữ*/
+    --hover-color: #373741;
 }
 
-[data-theme="dark"] {
+[data-theme="light"] {
     --primary-color: #eee;
     --secondary-color: #aaa;
     --background-color: #1e1e1e;
