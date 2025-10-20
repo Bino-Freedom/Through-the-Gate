@@ -1,0 +1,32 @@
+[
+    {
+        "linkTemplate": "../html/entity/characterTemplate.html",
+        "cardImg": "../image/characters/Nightmare/Nightmare_card.png",
+        "charName": "Nightmare"
+    },
+    {
+        "linkTemplate": "../html/entity/characterTemplate.html",
+        "cardImg": "../image/characters/Nightmare/Nightmare_card.png",
+        "charName": "Nightmare"
+    },
+    {
+        "linkTemplate": "../html/entity/characterTemplate.html",
+        "cardImg": "../image/characters/Nightmare/Nightmare_card.png",
+        "charName": "Nightmare"
+    },
+    {
+        "linkTemplate": "../html/entity/characterTemplate.html",
+        "cardImg": "../image/characters/Nightmare/Nightmare_card.png",
+        "charName": "Nightmare"
+    },
+    {
+        "linkTemplate": "../html/entity/characterTemplate.html",
+        "cardImg": "../image/characters/Nightmare/Nightmare_card.png",
+        "charName": "Nightmare"
+    },
+    {
+        "linkTemplate": "../html/entity/characterTemplate.html",
+        "cardImg": "../image/characters/Nightmare/Nightmare_card.png",
+        "charName": "Nightmare"
+    }
+]

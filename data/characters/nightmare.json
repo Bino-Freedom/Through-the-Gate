@@ -1,0 +1,294 @@
+[
+    {
+        "name": "Nightmare",
+        "image": "../../image/characters/Nightmare/Nightmare.png",
+        "rarity": "../../image/tags/star.png",
+        "class": "../../image/tags/fire.png",
+        "stats": {
+            "atk": 124,
+            "hp": 640,
+            "def": 80,
+            "spd": 110,
+            "crit": 10,
+            "critDmg": 150,
+            "res": 20,
+            "mp": 250,
+            "mpRegen": 100,
+            "accuracy": 20,
+            "blight": 50,
+            "overload": 50,
+            "overloadRate": 100
+        }
+    },
+    {
+        "talent": {
+            "talent1": [
+                "../../image/tags/star.png",
+                "Khởi Động",
+                "Tăng 10% tốc độ và kháng hiệu ứng trong 2 lượt đầu trận."
+            ],
+            "talent2": [
+                "../../image/tags/star.png",
+                "Kiên Cố",
+                "Mỗi khi hp giảm 30%, nhận thêm 10% miễn thương."
+            ],
+            "talent3": [
+                "../../image/tags/star.png",
+                "Đàn Áp Tuyệt Đối",
+                "Mỗi khi tấn công chí mạng, hồi lại 5% MP tối đa, mỗi lượt tối đa kích hoạt 1 lần."
+            ],
+            "talent4": [
+                "../../image/tags/star.png",
+                "Dấu Ấn Tận Diệt",
+                "Khi tiêu diệt kẻ địch, nhận hiệu ứng tăng 15% tốc độ trong 1 lượt."
+            ],
+            "talent5": [
+                "../../image/tags/star.png",
+                "Tiến Tới Hư Không",
+                "Sau mỗi 2 lượt, lần tấn công kế tiếp bỏ qua 20% phòng thủ."
+            ]
+        }
+    },
+    {
+        "skill": {
+            "passive": {
+                "link": "../../image/tags/fire.png",
+                "type": "Nội tại",
+                "name": "Cát bụi... quay về với cát bụi...",
+                "details": [
+                    "Mỗi khi bản thân hạ gục một kẻ địch, nhận 1 tầng <<Thanh trừng>>",
+                    "<<Thanh trừng:>> Tăng tốc độ bản thân lên <x>%, cộng dồn tối đa 5 lần"
+                ],
+                "statsTable": {
+                    "x": [
+                        2,
+                        2.11,
+                        2.22,
+                        2.33,
+                        2.44,
+                        2.56,
+                        2.67,
+                        2.78,
+                        2.89,
+                        3,
+                        4
+                    ]
+                }
+            },
+            "basicAttack": {
+                "link": "../../image/tags/fire.png",
+                "type": "Tấn công thường",
+                "name": "Hmmm...",
+                "overloadGain": "10",
+                "chargePowerPool": "20",
+                "details": "Tấn công kẻ địch hai lần, gây sát thương bằng <x1>% và <x2>% tấn công",
+                "statsTable": {
+                    "x1": [
+                        30,
+                        31.67,
+                        33.33,
+                        35,
+                        36.67,
+                        38.33,
+                        40,
+                        41.67,
+                        43.33,
+                        45,
+                        60
+                    ],
+                    "x2": [
+                        40,
+                        42.22,
+                        44.44,
+                        46.67,
+                        48.89,
+                        51.11,
+                        53.33,
+                        55.56,
+                        57.78,
+                        60,
+                        80
+                    ]
+                }
+            },
+            "activeSkill1": {
+                "link": "../../image/tags/fire.png",
+                "type": "Kỹ năng chủ động",
+                "name": "Nên kết thúc thôi...",
+                "orbCost": "1",
+                "overloadGain": "20",
+                "chargePowerPool": "5",
+                "details": [
+                    "Tấn công tất cả kẻ địch, gât sát thương bằng <x1>% tấn công, nếu lượng máu mục tiêu bị mất trong lần tấn công này lớn hơn <x2>% hoặc mục tiêu dưới <x3>% máu tối đa sẽ gắn kèm hiệu ứng <<Vụn Vỡ>> trong 2 lượt",
+                    "<<Vụn vỡ:>> Chịu thêm sát thương chuẩn bằng 30% lượng sát thương nhận vào"
+                ],
+                "statsTable": {
+                    "x1": [
+                        100,
+                        105.56,
+                        111.11,
+                        116.67,
+                        122.22,
+                        127.78,
+                        133.33,
+                        138.89,
+                        144.44,
+                        150,
+                        200
+                    ],
+                    "x2": [
+                        60,
+                        56.67,
+                        53.33,
+                        50,
+                        46.67,
+                        43.33,
+                        40,
+                        36.67,
+                        33.33,
+                        30,
+                        15
+                    ],
+                    "x3": [
+                        30,
+                        31.67,
+                        33.33,
+                        35,
+                        36.67,
+                        38.33,
+                        40,
+                        41.67,
+                        43.33,
+                        45,
+                        60
+                    ]
+                }
+            },
+            "activeSkill2": {
+                "link": "../../image/tags/fire.png",
+                "type": "Kỹ năng chủ động",
+                "name": "Có cố gắng, giờ thì...",
+                "orbCost": "1",
+                "overloadGain": "20",
+                "chargePowerPool": "5",
+                "details": "Tấn công kẻ địch 5 lần, mỗi lần gây sát thương bằng <x>% tấn công, với mỗi cộng dồn <<Thanh trừng>> đang có sẽ cộng thêm 1 lần vào đòn tấn công, nếu mục tiêu bị hạ gục trước khi kết thúc số lần tấn công thì kỹ năng chuyển sang <<Thấy rồi...>> và nhận số tầng <<Truy vết>> tương ứng số đòn dư.",
+                "statsTable": {
+                    "x": [
+                        35,
+                        36.94,
+                        38.89,
+                        40.83,
+                        42.78,
+                        44.72,
+                        46.67,
+                        48.61,
+                        50.56,
+                        52.5,
+                        70
+                    ]
+                }
+            },
+            "activeSkill3": {
+                "link": "../../image/tags/fire.png",
+                "type": "Kỹ năng bị động",
+                "name": "Thấy rồi...",
+                "orbCost": "1",
+                "overloadGain": "20",
+                "chargePowerPool": "5",
+                "details": "Sau mỗi lần đồng minh hoặc kẻ địch hành động, tiêu hao 1 tầng <<Truy vết>> để thi triển một đòn tấn công gây sát thương bằng <x>% tấn công lên kẻ địch có lượng máu thấp nhất.",
+                "statsTable": {
+                    "x": [
+                        140,
+                        147.78,
+                        155.56,
+                        163.33,
+                        171.11,
+                        178.89,
+                        186.67,
+                        194.44,
+                        202.22,
+                        210,
+                        280
+                    ]
+                }
+            },
+            "ultimate": {
+                "link": "../../image/tags/fire.png",
+                "type": "Kỹ năng tối thượng",
+                "name": "Trấn áp",
+                "overloadGain": "0",
+                "chargePowerPool": "5",
+                "details": [
+                    "Tấn công toàn bộ kẻ địch gây sát thương bằng <x1>% tấn công. Khiến địch rơi vào trạng thái <<Sự tồn tại phai tàn>> và khiến <<Dồn ép>> của kẻ địch lập tức đạt tới mức tối đa.",
+                    "<<Sự Tồn tại phai tàn:>> Đẩy lùi điểm hành động về cuối vòng và khóa hành động, tăng <x2>% sát thương phải nhận."
+                ],
+                "statsTable": {
+                    "x1": [
+                        110,
+                        116.11,
+                        122.22,
+                        128.33,
+                        134.44,
+                        140.56,
+                        146.67,
+                        152.78,
+                        158.89,
+                        165,
+                        220
+                    ],
+                    "x2": [
+                        15,
+                        15.83,
+                        16.67,
+                        17.5,
+                        18.33,
+                        19.17,
+                        20,
+                        20.83,
+                        21.67,
+                        22.5,
+                        30
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "mark": {
+            "mark1": {
+                "name": "",
+                "desc": ""
+            },
+            "mark2": {
+                "name": "",
+                "desc": ""
+            },
+            "mark3": {
+                "name": "",
+                "desc": ""
+            },
+            "mark4": {
+                "name": "",
+                "desc": ""
+            },
+            "mark5": {
+                "name": "",
+                "desc": ""
+            }
+        }
+    },
+    {
+        "profile": {
+            "fullName": "",
+            "nickName": "",
+            "birthday": "",
+            "age": "",
+            "gender": "",
+            "height": "",
+            "weight": "",
+            "personality": "",
+            "like": "",
+            "hate": ""
+        }
+    }
+]

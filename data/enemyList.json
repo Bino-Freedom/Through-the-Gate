@@ -1,0 +1,37 @@
+[
+    {
+        "linkTemplate": "../html/entity/enemyTemplate.html",
+        "cardImg": "../image/characters/sample/Godu_card.png",
+        "charName": "Godu"
+    },
+    {
+        "linkTemplate": "../html/entity/enemyTemplate.html",
+        "cardImg": "../image/characters/sample/Godu_card.png",
+        "charName": "Godu"
+    },
+    {
+        "linkTemplate": "../html/entity/enemyTemplate.html",
+        "cardImg": "../image/characters/sample/Godu_card.png",
+        "charName": "Godu"
+    },
+    {
+        "linkTemplate": "../html/entity/enemyTemplate.html",
+        "cardImg": "../image/characters/sample/Godu_card.png",
+        "charName": "Godu"
+    },
+    {
+        "linkTemplate": "../html/entity/enemyTemplate.html",
+        "cardImg": "../image/characters/sample/Godu_card.png",
+        "charName": "Godu"
+    },
+    {
+        "linkTemplate": "../html/entity/enemyTemplate.html",
+        "cardImg": "../image/characters/sample/Godu_card.png",
+        "charName": "Godu"
+    },
+    {
+        "linkTemplate": "../html/entity/enemyTemplate.html",
+        "cardImg": "../image/characters/sample/Godu_card.png",
+        "charName": "Godu"
+    }
+]

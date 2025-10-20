@@ -1,0 +1,31 @@
+{
+    "growth_type": "controlled_breakpoint",
+    "growth_per_level": 20,
+    "breakpoints": [
+        {
+            "level": 20,
+            "multiplier": 1.05,
+            "bonus": 0.05
+        },
+        {
+            "level": 40,
+            "multiplier": 1.12,
+            "bonus": 0.06
+        },
+        {
+            "level": 60,
+            "multiplier": 1.22,
+            "bonus": 0.07
+        },
+        {
+            "level": 80,
+            "multiplier": 1.35,
+            "bonus": 0.08
+        },
+        {
+            "level": 100,
+            "multiplier": 1.50,
+            "bonus": 0.10
+        }
+    ]
+}
